@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DateField"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of DateField."
+  spec.version      = "0.2"
+  spec.summary      = "A Date Format ('yyyy-MM-dd') TextField."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -54,9 +54,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "sili_xia" => "sili_xia@kingdee.com" }
-  # Or just: spec.author    = "sili_xia"
-  # spec.authors            = { "sili_xia" => "sili_xia@kingdee.com" }
+  spec.author             = { "onepiece" => "xiasili_lk@163.com" }
+  # Or just: spec.author    = "onepiece"
+  # spec.authors            = { "onepiece" => "xiasili_lk@163.com" }
   # spec.social_media_url   = "https://twitter.com/sili_xia"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "DateField/*"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
