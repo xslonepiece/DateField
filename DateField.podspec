@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DateField"
-  spec.version      = "0.3"
+  spec.version      = "0.3.1"
   spec.summary      = "A Date Format ('yyyy-MM-dd') TextField."
 
   # This description is used to generate tags and improve search results.
